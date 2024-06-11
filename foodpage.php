@@ -30,13 +30,13 @@
  $result5= $conn->query($sql5);
  $lat=$row3['lat'];
  $lng=$row3['lng'];
- $url2 = "https://maps.googleapis.com/maps/api/geocode/json?latlng=$lat,$lng&key=AIzaSyAgknUPj1dae6P2qe5Z7FNuxTn7sinn5_4&language=ko";
+ $url2 = "https://maps.googleapis.com/maps/api/geocode/json?latlng=$lat,$lng&key=Google_API_KEY&language=ko";
 
  $res2 = file_get_contents($url2); // API 응답 받아오기
  $response2 = json_decode($res2, true); // JSON 데이터 파싱
  $formatted_address2 = $response2['results'][0]['formatted_address']; //지번
 
- $url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=$lat,$lng&key=AIzaSyAgknUPj1dae6P2qe5Z7FNuxTn7sinn5_4&language=ko&result_type=street_address";
+ $url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=$lat,$lng&key=Google_API_KEY&language=ko&result_type=street_address";
 
  $res = file_get_contents($url); // API 응답 받아오기
  $response = json_decode($res, true); // JSON 데이터 파싱
