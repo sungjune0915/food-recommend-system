@@ -19,7 +19,7 @@
       $lng=$_SESSION['lng'];
   }
   else{
-  $apiKey = 'AIzaSyAgknUPj1dae6P2qe5Z7FNuxTn7sinn5_4'; // 발급받은 API 키
+  $apiKey = 'Google_API_KEY'; // 발급받은 API 키
   $url = 'https://www.googleapis.com/geolocation/v1/geolocate?key=' . $apiKey;
   $data = array('considerIp' => 'true'); // API 요청 데이터
   $ch = curl_init();
