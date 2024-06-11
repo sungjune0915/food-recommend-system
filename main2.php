@@ -102,6 +102,6 @@ if ($result->num_rows > 0) {
   </script>
 
   <!-- Google Maps API 로드 -->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgknUPj1dae6P2qe5Z7FNuxTn7sinn5_4&callback=initMap"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=Google_API_KEY&callback=initMap"></script>
 </body>
 </html>
