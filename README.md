@@ -14,9 +14,7 @@
 
 
 ## 계획
-1. 사용자가 원하는 폴더의 이름을 받아온다.
-2. 그 폴더안에 video, captured, duplicated 폴더를 만든다.
-3. 폴더안에 파일들을 다 돌면서 해당하는 mp4|mov, png|aae, IMG_1234(IMG_E1234) 파일들을 폴더에 넣어준다.
+![그림1](https://github.com/user-attachments/assets/6407a1e5-fec6-401f-9ce6-3349c75ab714)
 
 <br>
 <br>
